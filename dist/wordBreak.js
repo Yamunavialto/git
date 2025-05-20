@@ -26,5 +26,5 @@ function wordBreak(s, wordDict) {
     return dfs(0);
 }
 console.log(wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]));
-console.log(wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]));
+console.log(wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])); //Note that you are allowed to reuse a dictionary word.
 console.log(wordBreak("catsanddog", ["cats", "dog", "sand", "and", "cat"]));
