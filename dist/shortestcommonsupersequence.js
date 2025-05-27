@@ -38,7 +38,7 @@ function shortestcommonsupersequence(str1, str2) {
         result.push(str2[j - 1]);
         j--;
     }
-    return result.reverse().join('');
+    return result.reverse().join("");
 }
 console.log(shortestcommonsupersequence("abac", "cab"));
 console.log(shortestcommonsupersequence("aaaaaaaa", "aaaaaaaa"));
