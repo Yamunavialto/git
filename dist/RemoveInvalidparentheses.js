@@ -30,7 +30,7 @@ function RemoveInvalidParentheses(s) {
             continue;
         for (let i = 0; i < current.length; i++) {
             const char = current[i];
-            if (char !== '(' && char !== ')')
+            if (char !== '(' && char !== '(')
                 continue;
             const next = current.slice(0, i) + current.slice(i + 1);
             if (!visited.has(next)) {
@@ -43,4 +43,4 @@ function RemoveInvalidParentheses(s) {
 }
 console.log(RemoveInvalidParentheses("()())()"));
 console.log(RemoveInvalidParentheses("(a)())()"));
-console.log(RemoveInvalidParentheses(")("));
+console.log(RemoveInvalidParentheses(")(")); //removing the minimum number of parentheses and returning all unique valid results.
