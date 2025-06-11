@@ -49,5 +49,5 @@ class similarstringgroups {
     }
 }
 const solution = new similarstringgroups();
-console.log(solution.numsimilargroups(["tars", "rats", "arts", "star"])); // Output: 2
-console.log(solution.numsimilargroups(["omv", "ovm"])); // Output: 1
+console.log(solution.numsimilargroups(["tars", "rats", "arts", "star"]));
+console.log(solution.numsimilargroups(["omv", "ovm"]));
