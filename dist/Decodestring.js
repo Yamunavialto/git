@@ -26,6 +26,6 @@ function decodeString(s) {
     return currentString;
 }
 // Test cases
-console.log(decodeString("3[a]2[bc]")); // Output: "aaabcbc"
-console.log(decodeString("3[a2[c]]")); // Output: "accaccacc"
-console.log(decodeString("2[abc]3[cd]ef")); // Output: "abcabccdcdcdef"
+console.log(decodeString("3[a]2[bc]"));
+console.log(decodeString("3[a2[c]]"));
+console.log(decodeString("2[abc]3[cd]ef"));
