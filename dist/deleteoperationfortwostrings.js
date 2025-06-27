@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.minDistance = minDistance;
 function minDistance(word1, word2) {
     const m = word1.length;
     const n = word2.length;
